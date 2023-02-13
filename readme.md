@@ -6,7 +6,7 @@
   <img alt="" src=".github/celular.png">
 </p>
 
-## 🔥Tentei reproduzir a mesma calculadora do meu celular.
+## 🔥Tentei reproduzir a mesma calculadora do meu celular
 
 ## 💻 Tecnologias
 
