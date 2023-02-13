@@ -1,4 +1,4 @@
-<h1 align="center">Projeto #boracodar</h1>
+<h1 align="center">Calculadora</h1>
  <align="center">
   <img alt="" src=".github/capa.png">
  
