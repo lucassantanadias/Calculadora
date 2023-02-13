@@ -16,33 +16,33 @@
   <body>
     <div id="calculator">
       <div id="display">
-        <div id="calculation">1 + 1</div>
+        <div id="calculation"></div>
         <div id="result">
           <img src="./assets/equal.svg" alt="sinal de igual" />
-          <span>2</span>
+          <span></span>
         </div>
         <div id="line"></div>
         <div id="keyboard">
-          <button>C</button>
-          <button ><ion-icon name="backspace-outline"></ion-icon></button>
-          <button >%</button>
-          <button >÷</button>
-          <button class="color" >7</button>
-          <button class="color" >8</button>
-          <button class="color" >9</button>
-          <button >x</button>
-          <button class="color" >4</button>
-          <button class="color" >5</button>
-          <button class="color">6</button>
-          <button>-</button>
-         <button class="color" >1</button>
-         <button class="color" >2</button>
-         <button class="color">3</button>
-         <button>+</button>
+          <button onclick="clean('')">C</button>
+          <button onclick="back()"><ion-icon name="backspace-outline"></ion-icon></button>
+          <button>%</button>
+          <button onclick="insert('/')">÷</button>
+          <button class="color" onclick="insert(7)">7</button>
+          <button class="color" onclick="insert(8)">8</button>
+          <button class="color" onclick="insert(9)">9</button>
+          <button onclick="insert('*')">x</button>
+          <button class="color" onclick="insert(4)">4</button>
+          <button class="color" onclick="insert(5)">5</button>
+          <button class="color"onclick="insert(6)">6</button>
+          <button onclick="insert('-')">-</button>
+         <button class="color" onclick="insert(1)">1</button>
+         <button class="color" onclick="insert(2)">2</button>
+         <button class="color"onclick="insert(3)">3</button>
+         <button onclick= "insert('+')">+</button>
          <button><img src="./assets/button.svg" alt=""></button>
-         <button class="color" >0</button>
-         <button class="color">,</button>
-         <button class="bg-color">=</button>
+         <button class="color" onclick="insert(0)">0</button>
+         <button class="color"onclick="insert(',')">,</button>
+         <button class="bg-color" onclick="calculate()">=</button>
         </div>
       </div>
     <script

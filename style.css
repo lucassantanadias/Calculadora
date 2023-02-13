@@ -94,4 +94,5 @@ button:hover {
   background: rgba(250, 248, 248, 0.172);
   border-radius: 50%;
   transition: background 0.2s;
+  cursor: pointer;
 }
