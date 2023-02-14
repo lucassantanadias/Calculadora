@@ -1,4 +1,4 @@
-<h1 align="center">Calculadora</h1>
+<h1 align="center">Calculadora funcional</h1>
  <align="center">
   <img alt="" src=".github/capa.png">
  
@@ -7,6 +7,6 @@
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - HTML e CSS
+- JavaScript
 - Git e Github
 - Figma
-  <img src="" alt="" style="display: block;">
