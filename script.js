@@ -15,9 +15,9 @@ function back() {
     0,
     result.length - 1
   )
-}
+} //substring retorna uma string quando colocado dentro do argumento. No caso, eu coloquei um valor negativo para ele diminuir o valor
 
-//respomsável pelo resultado.
+//responsável pelo resultado.
 function calculate() {
   var result = document.getElementById("calculation").innerHTML
 
